@@ -97,14 +97,14 @@ article.post footer .stats {
         /* Theoretically for IE 8 & 9 (more valid) */
         /* ...but not required as filter works too */
         /* should come BEFORE filter */
-        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 
         /* This works in IE 8 & 9 too */
         /* ... but also 5, 6, 7 */
-        filter: alpha(opacity=87);
+        filter: alpha(opacity=100);
 
         /* Modern Browsers */
-        opacity: 0.87;
+        opacity: 1.0;
     }
 
 #header h2 {
